@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/isimler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Görsel"
+            android:textAlignment="center"
+            android:layout_span="4"/>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İlk"
+            android:onClick="ilk"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geri"
+            android:onClick="geri"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="İleri"
+            android:onClick="ileri"/>
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Son"
+            android:onClick="son"/>
+    </TableRow>
+
+    <TableRow>
+
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="10"
+            android:progress="3"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="4"/>
+    </TableRow>
+
+    <TableRow>
+
+
+        <EditText
+            android:id="@+id/sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Süre"
+            android:text="1"
+            android:layout_span="4"/>
+    </TableRow>
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/baslat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BAŞLAT"
+            android:layout_span="4"
+            android:onClick="basla"/>
+    </TableRow>
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/durdur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DURDUR"
+            android:layout_span="4"
+            android:onClick="dur"/>
+    </TableRow>
+    <TableRow>
+
+
+    </TableRow>
+
+    <TableRow>
+
+
+    </TableRow>
+    <TableRow>
+
+
+    </TableRow>
+
+    <TableRow>
+
+
+    </TableRow>
+
+
+
+
+
+
+
+</TableLayout>
